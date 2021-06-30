@@ -80,9 +80,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-.btn:hover {
-  opacity: 0.9;
-}
+.btn:hover { opacity: 0.9; }
 
 .card {
   background: white;
@@ -126,9 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 .p-2 { padding: 2rem; }
 .p-3 { padding: 3rem; }
 
-.l-heading {
-  font-size: 3rem;
-}
+.l-heading { font-size: 3rem; }
 
 .list li {
   padding: .5rem 0;
@@ -136,9 +132,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 90%;
 }
 
-.list li a:hover {
-  color: var(--primary-color) !important;
-}
+.list li a:hover { color: var(--primary-color) !important; }
 
 /* Inner Page Grid Container */
 .page-container {
@@ -148,9 +142,7 @@ h1, h2, h3, h4, h5, h6 {
   grid-gap: 1.5rem;
 }
 
-.page-container > *:first-child {
-  grid-row: 1 / span 3;
-}
+.page-container > *:first-child { grid-row: 1 / span 3; }
 
 /* Navigation */
 #main-nav {
@@ -167,9 +159,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 
-#main-nav .logo {
-  width: 180px;
-}
+#main-nav .logo { width: 180px; }
 
 #main-nav ul {
   justify-self: end;
@@ -191,9 +181,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--dark-color);
 }
 
-#main-nav .social {
-  justify-self: center;
-}
+#main-nav .social { justify-self: center; }
 
 #main-nav .social i {
   color: #777;
@@ -227,13 +215,9 @@ h1, h2, h3, h4, h5, h6 {
   height: 50vh;
 }
 
-#showcase .showcase-content {
-  z-index: 1;
-}
+#showcase .showcase-content { z-index: 1; }
 
-#showcase .showcase-content p {
-  margin-bottom: 1rem;
-}
+#showcase .showcase-content p { margin-bottom: 1rem; }
 
 /* Home Articles */
 #home-articles .articles-container {
@@ -261,9 +245,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0.5rem;
 }
 
-#article .meta .category {
-  margin-top: 0.4rem;
-}
+#article .meta .category { margin-top: 0.4rem; }
 
 /* Footer */
 #main-footer {
@@ -271,13 +253,9 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
-#main-footer img {
-  width: 150px;
-}
+#main-footer img { width: 150px; }
 
-#main-footer a {
-  color: white;
-}
+#main-footer a { color: white; }
 
 #main-footer .footer-container {
   display: grid;
@@ -299,6 +277,4 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
 }
 
-#main-footer .footer-container input[type='submit'] {
-  width: 90%;
-}
+#main-footer .footer-container input[type='submit'] { width: 90%; }
